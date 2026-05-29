@@ -1,0 +1,31 @@
+# Node
+node_modules/
+
+# Visual Studio workspace (do not track .vs folder)
+.vs/
+
+# VS Code
+.vscode/
+
+# TypeScript
+out/
+
+# .NET
+bin/
+obj/
+
+# Kobold artifacts
+artifacts/
+
+# Copilot snapshots and caches
+.copilot-cache/
+.copilot/
+**/.copilot/*
+**/.copilot-cache/*
+**/copilot-snapshots/*
+**/CopilotSnapshots/*
+*.copilot
+
+# OS
+.DS_Store
+Thumbs.db
