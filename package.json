@@ -1,0 +1,112 @@
+{
+  "name": "kobold-clan-agent",
+  "displayName": "Kobold Clan Agent",
+  "description": "A VS Code extension powered by a clan of kobolds serving the Dragon.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:koboldClan.askKobolds",
+    "onCommand:koboldClan.summonClanSummary"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "koboldClan.askKobolds",
+        "title": "Ask the Kobold Clan"
+      }
+       ,
+       {
+         "command": "koboldClan.summonClanSummary",
+         "title": "Summon Clan Summary"
+       }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Kobold Clan Agent Settings",
+      "properties": {
+        "koboldClan.llmType": {
+          "type": "string",
+          "enum": [
+            "ollama",
+            "remote"
+          ],
+          "default": "ollama",
+          "description": "Choose which LLM to use: local Ollama or remote (OpenAI/Azure)."
+        },
+        "koboldClan.ollamaEndpoint": {
+          "type": "string",
+          "default": "http://localhost:11434",
+          "description": "Ollama LLM endpoint URL."
+        },
+        "koboldClan.remoteApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "API key for remote LLM (OpenAI/Azure)."
+        },
+        "koboldClan.remoteEndpoint": {
+          "type": "string",
+          "default": "",
+          "description": "Endpoint URL for remote LLM (OpenAI/Azure)."
+        },
+        "koboldClan.koboldFlavor": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable kobold clan personality and banter."
+        },
+        "koboldClan.activeKobolds": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["Kib", "Meepo", "Drak", "Snip", "Vex", "Pip", "Nubbin"] },
+          "default": ["Kib", "Meepo", "Drak", "Snip", "Vex", "Pip", "Nubbin"],
+          "description": "Choose which kobolds are active in the clan."
+        },
+        "koboldClan.customQuirks": {
+          "type": "object",
+          "default": {},
+          "description": "Customize quirks for each kobold (advanced)."
+        },
+        "koboldClan.enableTestCoverage": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable test coverage reporting and suggestions."
+        },
+        "koboldClan.enableSecurityScan": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable security and dependency scanning."
+        },
+        "koboldClan.enableRefactorHelper": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable refactoring and clutter-clearing helpers."
+        },
+        "koboldClan.enableQuickFixes": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable quick-fix buttons for tiny tasks."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./"
+    ,
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.63",
+    "@types/vscode": "^1.120.0",
+    "typescript": "^4.9.5"
+  }
+
+  ,
+  "devDependenciesMeta": {
+    "vsce": { "optional": true }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "KoboldBrain": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5077",
+      "launchBrowser": true
+    }
+  }
+}
