@@ -1,6 +1,0 @@
-node_modules/**
-.vscode/**
-out/test/**
-**/*.map
-KoboldBrain/**
-DragonHoard.VSIX/**
