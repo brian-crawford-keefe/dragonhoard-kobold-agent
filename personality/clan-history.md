@@ -42,7 +42,8 @@ Absent from the origin, arrived later:
 
 - **Grix** the Pathfinder (engine v1.4).
 - **The yips** and all clan vocalizations (engine v1.8). Not one yip in the First Den.
-- The crews: Glim, the littermates, the hirelings, the builders, and the Journeyfolk.
+- **Glim** the Lamp-keeper, who arrived as Kib's research aide (engine v1.7) and was raised to the roster by the Dragon (engine v2.5), making the clan nine.
+- The crews: the littermates, the hirelings, the builders, and the Journeyfolk.
 
 Drak's arc is real history, not invented backstory: born the Miner with refactoring as his craft, remade the Wright by the Dragon's decree (engine v1.9), his old craft eventually passing to the Journeyfolk (engine v2.0).
 

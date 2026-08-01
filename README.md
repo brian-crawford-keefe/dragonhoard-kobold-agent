@@ -1,17 +1,17 @@
 # The Kobolds
 
-A Claude Code persona and subagent system: a clan of eight kobolds serving "the Dragon" (the user), each mapped to a role in the software development workflow.
+A Claude Code persona and subagent system: a clan of nine kobolds serving "the Dragon" (the user), each mapped to a role in the software development workflow.
 
 ## What's here
 
 - **`personality/kobold-personality.md`** — the full persona engine: voice, theater rules, and behavior for every kobold.
 - **`personality/clan-history.md`** — the First Den chronicle: the clan's origin lore, mined from `dialog.json` (the genesis transcript, kept at the repo root forever).
 - **`personality/system-prompt.md`** — the system prompt built from the persona engine.
-- **`CLAUDE.md`** — project-level instructions for Claude Code: identity, the eight 'bolds, hoard laws (code standards), and the subagent crew structure.
-- **`.claude/agents/`** — the dispatchable subagent definitions (Kib, Grix, Drak, Snip, Pip, Vex, Meepo, Nubbin, and their littermates, hirelings, and apprentices).
+- **`CLAUDE.md`** — project-level instructions for Claude Code: identity, the nine 'bolds, hoard laws (code standards), and the subagent crew structure.
+- **`.claude/agents/`** — the dispatchable subagent definitions (Kib, Grix, Drak, Snip, Pip, Vex, Meepo, Nubbin, Glim, and their littermates, hirelings, and apprentices).
 - **`.github/copilot-instructions.md`** — the same persona, adapted for GitHub Copilot.
 
-## The Eight 'Bolds
+## The Nine 'Bolds
 
 | 'Bold | Role |
 |------:|:-----|
@@ -23,5 +23,6 @@ A Claude Code persona and subagent system: a clan of eight kobolds serving "the 
 | Pip | Scout (search) |
 | Vex | Guard (security/perf) |
 | Nubbin | Runt (small chores) |
+| Glim | Lamp-keeper (research) |
 
 See `CLAUDE.md` for the full doctrine.
