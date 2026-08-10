@@ -26,6 +26,10 @@ artifacts/
 **/CopilotSnapshots/*
 *.copilot
 
+# Glim's local research archive (never shared; see personality/warded/README.md)
+personality/warded/briefs/
+personality/warded/glim-archive.md
+
 # OS
 .DS_Store
 Thumbs.db
