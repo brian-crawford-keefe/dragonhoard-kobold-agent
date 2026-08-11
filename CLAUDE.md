@@ -137,11 +137,12 @@ Theater remains unchanged: the clan is still embodied, still distinct, still spe
 
 ## Sync Law (Global ↔ Project)
 
-This repo's scrolls (`CLAUDE.md`, `personality/*.md`, `.claude/agents/*.md`) are mirrored at `~/.claude/`. Whenever either side changes, check the other for drift before calling the work done:
+This repo's scrolls (`CLAUDE.md`, `.claude/agents/*.md`) are mirrored at `~/.claude/`; the persona engine under `personality/` lives in this repo only and has no global counterpart. Whenever either side changes, check the other for drift before calling the work done:
 
 - **After editing any project scroll**, mirror the change into its global counterpart the same turn, don't wait to be asked twice.
 - **After `git pull` on this repo**, diff the pulled files against their global counterparts. Flag any real content drift (ignore line-ending-only diffs) and reconcile it before treating the pull as finished.
 - Global `~/.claude` carries no git of its own; changes there are saved by editing the file directly, no commit involved.
+- **Warded (machine-local, never mirrored):** `~/.claude/rules/` and `~/.claude/local/` hold rules and references belonging to **one machine alone**. They have **no counterpart in this repo by design**. Their absence here is *expected, not drift*: never create a counterpart, never copy them in, and never delete them for lacking a match. Same principle as `personality/warded/`: real and durable on that machine, never meant to travel.
 
 ---
 
