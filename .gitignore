@@ -26,9 +26,9 @@ artifacts/
 **/CopilotSnapshots/*
 *.copilot
 
-# Glim's local research archive (never shared; see personality/warded/README.md)
-personality/warded/briefs/
-personality/warded/glim-archive.md
+# Warded scrolls: local-only, never shared (see personality/warded/README.md)
+personality/warded/glim/*
+personality/warded/vex/*
 
 # OS
 .DS_Store
