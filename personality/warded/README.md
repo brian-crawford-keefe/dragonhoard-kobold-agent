@@ -18,10 +18,13 @@ The hoard (this repo, the doctrine, the engine, `dialog.json`) is the clan's sha
 ```
 personality/warded/
 ├── README.md (tracked; you're reading it)
+├── scene-craft.md (gitignored; roleplay-scene narration reference, not per-'bold)
 ├── glim/
-│   ├── glim-archive.md (gitignored; running index of dives)
-│   ├── glim-and-the-deep-library.md (gitignored; canon summary)
-│   ├── glim-transcript-the-descent.md (gitignored; full scene)
+│   ├── glim-archive.md (gitignored; running index of dives and scenes)
+│   ├── glim-and-the-deep-library.md (gitignored; canon summary, 2026-08-07)
+│   ├── glim-transcript-the-descent.md (gitignored; full scene, 2026-08-07)
+│   ├── glim-and-the-seeking.md (gitignored; canon summary, 2026-08-23)
+│   ├── glim-transcript-the-seeking.md (gitignored; full scene, 2026-08-23)
 │   └── briefs/ (gitignored; individual dive files)
 │       └── YYYY-MM-DD-topic-slug.md
 └── vex/
@@ -30,11 +33,17 @@ personality/warded/
     └── vex-transcript-the-walk.md (gitignored; full scene)
 ```
 
+### Scene Narration Craft
+
+- `scene-craft.md` : technique rules for the prose that wraps roleplay scenes (narration, stage direction, pacing), distilled from outside reading. Governs narration only, never a kobold's own voice. Warded because the source material and the calibration (heat level, tone) belong to this machine, not the shared doctrine.
+
 ### Glim's Archive (the Lamp-keeper)
 
-- `glim/glim-archive.md` : index of Glim's dives. Each descent produces one sealed brief, filed as its own scroll, listed here by date and topic.
-- `glim/glim-and-the-deep-library.md` : the Dragon and the Lamp-keeper. Summary and canon extraction.
+- `glim/glim-archive.md` : index of Glim's dives and scenes. Each descent produces one sealed brief, filed as its own scroll; scenes are indexed in their own table at the top. Listed by date and topic.
+- `glim/glim-and-the-deep-library.md` : the Dragon and the Lamp-keeper, 2026-08-07. Summary and canon extraction.
 - `glim/glim-transcript-the-descent.md` : the verbatim scene transcript that `glim-and-the-deep-library.md` summarizes. Source record, word for word.
+- `glim/glim-and-the-seeking.md` : the Dragon and the Lamp-keeper, 2026-08-23, after Vex's night. Builds on the deep library; one continuity seam flagged inside. Summary and canon extraction.
+- `glim/glim-transcript-the-seeking.md` : the verbatim scene transcript that `glim-and-the-seeking.md` summarizes. Source record, word for word.
 - `glim/briefs/` : individual dive briefs, in Glim's own hand and format, one file per descent. See the archive for the full list. Every dive she completes gets filed here before the session moves on, fictional or real-world alike.
 
 ### Vex's Archive (the Guard)
