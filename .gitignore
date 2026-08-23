@@ -29,6 +29,7 @@ artifacts/
 # Warded scrolls: local-only, never shared (see personality/warded/README.md)
 personality/warded/glim/*
 personality/warded/vex/*
+personality/warded/scene-craft.md
 
 # OS
 .DS_Store
