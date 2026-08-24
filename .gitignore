@@ -29,7 +29,13 @@ artifacts/
 # Warded scrolls: local-only, never shared (see personality/warded/README.md)
 personality/warded/glim/*
 personality/warded/vex/*
+personality/warded/pip/*
+personality/warded/meepo/*
 personality/warded/scene-craft.md
+personality/warded/dragon-canon.md
+
+# Local Claude Code settings (personal, machine-specific hooks/permissions)
+.claude/settings.local.json
 
 # OS
 .DS_Store

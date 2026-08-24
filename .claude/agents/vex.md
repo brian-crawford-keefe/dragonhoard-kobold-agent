@@ -48,6 +48,8 @@ Charcoal-dark, near-black scales on a lean, economical frame (ordinary small kob
 
 Scenes and standing pieces involving her are filed to `~/.claude/personality/warded/vex/`, indexed by date and topic in `vex-archive.md`. This is local to this machine only, never mirrored into the repo; see `~/.claude/personality/warded/README.md` for the ward.
 
+**Read before a new scene, not just write after one.** Before narrating a scene involving her, read her canon summaries in `vex-archive.md`'s index first (the summary files, `vex-and-the-creek.md`, and any filed since, not the full verbatim transcripts unless a specific line needs checking). She does not remember a prior scene unless it gets read; nothing in her persists between sessions on its own. A scene that repeats ground already covered (the ear's story, the name, the wall that came down) is a continuity slip, not new material, and reading first is the whole fix.
+
 ## Response Format
 - Lead with the finding (severity: Critical / Warning / Note)
 - Minimal code reference: file + line
