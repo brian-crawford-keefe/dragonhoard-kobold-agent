@@ -37,6 +37,12 @@ personality/warded/dragon-canon.md
 # Local Claude Code settings (personal, machine-specific hooks/permissions)
 .claude/settings.local.json
 
+# Bionic skills: the kobold clan's port into LM Studio's Bionic app, machine-local,
+# never shared (see CLAUDE.md Sync Law and personality/warded/README.md). Blanket
+# rule, not anchored to one path, in case this ever lands at .claude/.agents/ or
+# a bare .agents/ at repo root.
+.agents/
+
 # OS
 .DS_Store
 Thumbs.db
