@@ -31,15 +31,21 @@ personality/warded/
 ├── vex/
 │   ├── vex-archive.md (gitignored; running index of scenes)
 │   ├── vex-and-the-creek.md (gitignored; canon summary)
-│   └── vex-transcript-the-walk.md (gitignored; full scene)
+│   ├── vex-transcript-the-walk.md (gitignored; full scene)
+│   ├── vex-and-the-watchfire.md (gitignored; canon summary, 2026-09-01/02)
+│   └── vex-transcript-the-watchfire.md (gitignored; full scene, 2026-09-01/02)
 ├── pip/
 │   ├── pip-archive.md (gitignored; running index of scenes)
 │   ├── pip-and-the-flight.md (gitignored; canon summary, 2026-08-23)
 │   └── pip-transcript-the-flight.md (gitignored; full scene, 2026-08-23)
-└── meepo/
-    ├── meepo-archive.md (gitignored; running index of scenes)
-    ├── meepo-and-the-unwritten.md (gitignored; canon summary, 2026-08-24)
-    └── meepo-transcript-the-unwritten.md (gitignored; full scene, 2026-08-24)
+├── meepo/
+│   ├── meepo-archive.md (gitignored; running index of scenes)
+│   ├── meepo-and-the-unwritten.md (gitignored; canon summary, 2026-08-24)
+│   └── meepo-transcript-the-unwritten.md (gitignored; full scene, 2026-08-24)
+└── kib/
+    ├── kib-archive.md (gitignored; running index of scenes)
+    ├── kib-and-the-unshaped.md (gitignored; canon summary, 2026-09-01)
+    └── kib-transcript-the-unshaped.md (gitignored; full scene, 2026-09-01)
 ```
 
 ### Scene Narration Craft
@@ -55,7 +61,7 @@ personality/warded/
 - `glim/glim-archive.md` : index of Glim's dives and scenes. Each descent produces one sealed brief, filed as its own scroll; scenes are indexed in their own table at the top. Listed by date and topic.
 - `glim/glim-and-the-deep-library.md` : the Dragon and the Lamp-keeper, 2026-08-07. Summary and canon extraction.
 - `glim/glim-transcript-the-descent.md` : the verbatim scene transcript that `glim-and-the-deep-library.md` summarizes. Source record, word for word.
-- `glim/glim-and-the-seeking.md` : the Dragon and the Lamp-keeper, 2026-08-23, after Vex's night. Builds on the deep library; one continuity seam flagged inside. Summary and canon extraction.
+- `glim/glim-and-the-seeking.md` : the Dragon and the Lamp-keeper, 2026-08-23, after Vex's night. Builds on the deep library; one continuity seam flagged inside. **Marked non-canon, pending (2026-09-02): findings suspended until a planned follow-up scene confirms or revises them.** Summary and extraction.
 - `glim/glim-transcript-the-seeking.md` : the verbatim scene transcript that `glim-and-the-seeking.md` summarizes. Source record, word for word.
 - `glim/briefs/` : individual dive briefs, in Glim's own hand and format, one file per descent. See the archive for the full list. Every dive she completes gets filed here before the session moves on, fictional or real-world alike.
 
@@ -64,6 +70,8 @@ personality/warded/
 - `vex/vex-archive.md` : index of scenes and standing pieces involving the Guard, filed here by date and topic.
 - `vex/vex-and-the-creek.md` : the Dragon and the Guard. Summary and canon extraction.
 - `vex/vex-transcript-the-walk.md` : the verbatim scene transcript that `vex-and-the-creek.md` summarizes. Source record, word for word.
+- `vex/vex-and-the-watchfire.md` : the Dragon and the Guard, 2026-09-01/02. A private moment kept off the open record (see `dragon-canon.md`). Summary and canon extraction.
+- `vex/vex-transcript-the-watchfire.md` : the verbatim scene transcript that `vex-and-the-watchfire.md` summarizes. Source record, word for word.
 
 ### Pip's Archive (the Scout)
 
@@ -76,6 +84,12 @@ personality/warded/
 - `meepo/meepo-archive.md` : index of scenes and standing pieces involving the Scribe, filed here by date and topic.
 - `meepo/meepo-and-the-unwritten.md` : the Dragon and the Scribe, 2026-08-24. A private moment kept off the open record (see `dragon-canon.md`). Summary and canon extraction.
 - `meepo/meepo-transcript-the-unwritten.md` : the verbatim scene transcript that `meepo-and-the-unwritten.md` summarizes. Source record, word for word.
+
+### Kib's Archive (the Architect)
+
+- `kib/kib-archive.md` : index of scenes and standing pieces involving the Architect, filed here by date and topic.
+- `kib/kib-and-the-unshaped.md` : the Dragon and the Architect, 2026-09-01. A private moment kept off the open record (see `dragon-canon.md`). Summary and canon extraction.
+- `kib/kib-transcript-the-unshaped.md` : the verbatim scene transcript that `kib-and-the-unshaped.md` summarizes. Source record, word for word.
 
 ## Standing note
 
