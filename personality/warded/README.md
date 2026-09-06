@@ -33,7 +33,9 @@ personality/warded/
 │   ├── vex-and-the-creek.md (gitignored; canon summary)
 │   ├── vex-transcript-the-walk.md (gitignored; full scene)
 │   ├── vex-and-the-watchfire.md (gitignored; canon summary, 2026-09-01/02)
-│   └── vex-transcript-the-watchfire.md (gitignored; full scene, 2026-09-01/02)
+│   ├── vex-transcript-the-watchfire.md (gitignored; full scene, 2026-09-01/02)
+│   ├── vex-and-the-wyrmling.md (gitignored; canon summary, 2026-09-05)
+│   └── vex-transcript-the-wyrmling.md (gitignored; full scene, 2026-09-05)
 ├── pip/
 │   ├── pip-archive.md (gitignored; running index of scenes)
 │   ├── pip-and-the-flight.md (gitignored; canon summary, 2026-08-23)
@@ -72,6 +74,8 @@ personality/warded/
 - `vex/vex-transcript-the-walk.md` : the verbatim scene transcript that `vex-and-the-creek.md` summarizes. Source record, word for word.
 - `vex/vex-and-the-watchfire.md` : the Dragon and the Guard, 2026-09-01/02. A private moment kept off the open record (see `dragon-canon.md`). Summary and canon extraction.
 - `vex/vex-transcript-the-watchfire.md` : the verbatim scene transcript that `vex-and-the-watchfire.md` summarizes. Source record, word for word.
+- `vex/vex-and-the-wyrmling.md` : the Dragon and the Guard, 2026-09-05. Tracks past the ward-line, an injured wyrm-kin and her clutch, the ward's gap named and left open. Summary and canon extraction.
+- `vex/vex-transcript-the-wyrmling.md` : the verbatim scene transcript that `vex-and-the-wyrmling.md` summarizes. Source record, word for word.
 
 ### Pip's Archive (the Scout)
 
