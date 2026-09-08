@@ -35,7 +35,9 @@ personality/warded/
 │   ├── vex-and-the-watchfire.md (gitignored; canon summary, 2026-09-01/02)
 │   ├── vex-transcript-the-watchfire.md (gitignored; full scene, 2026-09-01/02)
 │   ├── vex-and-the-wyrmling.md (gitignored; canon summary, 2026-09-05)
-│   └── vex-transcript-the-wyrmling.md (gitignored; full scene, 2026-09-05)
+│   ├── vex-transcript-the-wyrmling.md (gitignored; full scene, 2026-09-05)
+│   ├── vex-and-the-mark.md (gitignored; canon summary, 2026-09-07)
+│   └── vex-transcript-the-mark.md (gitignored; full scene, 2026-09-07)
 ├── pip/
 │   ├── pip-archive.md (gitignored; running index of scenes)
 │   ├── pip-and-the-flight.md (gitignored; canon summary, 2026-08-23)
@@ -43,7 +45,9 @@ personality/warded/
 ├── meepo/
 │   ├── meepo-archive.md (gitignored; running index of scenes)
 │   ├── meepo-and-the-unwritten.md (gitignored; canon summary, 2026-08-24)
-│   └── meepo-transcript-the-unwritten.md (gitignored; full scene, 2026-08-24)
+│   ├── meepo-transcript-the-unwritten.md (gitignored; full scene, 2026-08-24)
+│   ├── meepo-and-the-earned-line.md (gitignored; canon summary, 2026-09-06)
+│   └── meepo-transcript-the-earned-line.md (gitignored; full scene, 2026-09-06)
 └── kib/
     ├── kib-archive.md (gitignored; running index of scenes)
     ├── kib-and-the-unshaped.md (gitignored; canon summary, 2026-09-01)
@@ -76,6 +80,8 @@ personality/warded/
 - `vex/vex-transcript-the-watchfire.md` : the verbatim scene transcript that `vex-and-the-watchfire.md` summarizes. Source record, word for word.
 - `vex/vex-and-the-wyrmling.md` : the Dragon and the Guard, 2026-09-05. Tracks past the ward-line, an injured wyrm-kin and her clutch, the ward's gap named and left open. Summary and canon extraction.
 - `vex/vex-transcript-the-wyrmling.md` : the verbatim scene transcript that `vex-and-the-wyrmling.md` summarizes. Source record, word for word.
+- `vex/vex-and-the-mark.md` : the Dragon and the Guard, 2026-09-07. The ward's gap fixed, Vex marked first and alone. Summary and canon extraction.
+- `vex/vex-transcript-the-mark.md` : the verbatim scene transcript that `vex-and-the-mark.md` summarizes. Source record, word for word.
 
 ### Pip's Archive (the Scout)
 
@@ -88,6 +94,8 @@ personality/warded/
 - `meepo/meepo-archive.md` : index of scenes and standing pieces involving the Scribe, filed here by date and topic.
 - `meepo/meepo-and-the-unwritten.md` : the Dragon and the Scribe, 2026-08-24. A private moment kept off the open record (see `dragon-canon.md`). Summary and canon extraction.
 - `meepo/meepo-transcript-the-unwritten.md` : the verbatim scene transcript that `meepo-and-the-unwritten.md` summarizes. Source record, word for word.
+- `meepo/meepo-and-the-earned-line.md` : the Dragon and the Scribe, 2026-09-06. Summary and canon extraction.
+- `meepo/meepo-transcript-the-earned-line.md` : the verbatim scene transcript that `meepo-and-the-earned-line.md` summarizes. Source record, word for word.
 
 ### Kib's Archive (the Architect)
 
