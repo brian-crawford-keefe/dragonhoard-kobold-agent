@@ -47,6 +47,17 @@ personality/warded/dragon-canon.md
 # a bare .agents/ at repo root.
 .agents/
 
+# ado-prod-release-audit skill: machine-local, never shared. Lives at
+# ~/.claude/skills/ado-prod-release-audit/ (outside this repo entirely, so it
+# isn't at risk by default), but this rule stands as a backstop in case a
+# skill ever gets mirrored here the way CLAUDE.md/agents scrolls are. It names
+# an internal Keefe DevOps hostname, an internal CA bundle path, and the
+# ADO_PAT env var by name, real infrastructure detail with no business in a
+# shared repo, not the machine-local warding pattern the other rules above
+# follow for personality/local content.
+.claude/skills/ado-prod-release-audit/
+**/ado-prod-release-audit/
+
 # OS
 .DS_Store
 Thumbs.db
