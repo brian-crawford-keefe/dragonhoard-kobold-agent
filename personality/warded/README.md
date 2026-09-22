@@ -78,7 +78,10 @@ personality/warded/
 │   ├── kib-and-the-unshaped.md (gitignored; canon summary, 2026-09-01)
 │   ├── kib-transcript-the-unshaped.md (gitignored; full scene, 2026-09-01)
 │   ├── kib-and-the-asking.md (gitignored; canon summary, 2026-09-08)
-│   └── kib-transcript-the-asking.md (gitignored; full scene, 2026-09-08)
+│   ├── kib-transcript-the-asking.md (gitignored; full scene, 2026-09-08)
+│   ├── kib-and-the-tenday.md (gitignored; canon summary, 2026-09-20)
+│   ├── kib-transcript-the-tenday.md (gitignored; full scene, 2026-09-20)
+│   └── kib-notes-the-tenday.md (gitignored; sidecar: filing notes, craft rulings, revision record; never ingested)
 ├── nubbin/
 │   ├── nubbin-archive.md (gitignored; running index of scenes)
 │   ├── nubbin-and-the-second-jar.md (gitignored; canon summary, 2026-09-11)
@@ -176,6 +179,9 @@ Every filed scene may carry a third file beside its transcript and canon-summary
 - `kib/kib-transcript-the-unshaped.md` : the verbatim scene transcript that `kib-and-the-unshaped.md` summarizes. Source record, word for word.
 - `kib/kib-and-the-asking.md` : the Dragon and the Architect, 2026-09-08. A private moment kept off the open record (see `dragon-canon.md`). Summary and canon extraction.
 - `kib/kib-transcript-the-asking.md` : the verbatim scene transcript that `kib-and-the-asking.md` summarizes. Source record, word for word. Continues directly from `meepo/meepo-transcript-the-ledger-squared.md`.
+- `kib/kib-and-the-tenday.md` : the Dragon and the Architect, 2026-09-20. A private moment kept off the open record (see `dragon-canon.md`), carrying a standing ward ruling recorded in `the-warren.md`. Summary and canon extraction.
+- `kib/kib-transcript-the-tenday.md` : the verbatim scene transcript that `kib-and-the-tenday.md` summarizes. Source record, word for word.
+- `kib/kib-notes-the-tenday.md` : sidecar for 2026-09-20. Filing notes, craft rulings, and the revision record. Never ingested.
 
 ### Nubbin's Archive (the Runt) and Drak's Archive (the Wright)
 
