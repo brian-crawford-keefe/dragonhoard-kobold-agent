@@ -58,7 +58,10 @@ personality/warded/
 │   ├── vex-transcript-the-mark.md (gitignored; full scene, 2026-09-07)
 │   ├── vex-and-the-earned-name.md (gitignored; canon summary, 2026-09-18)
 │   ├── vex-transcript-the-earned-name.md (gitignored; full scene, 2026-09-18)
-│   └── vex-notes-the-earned-name.md (gitignored; sidecar, never ingested)
+│   ├── vex-notes-the-earned-name.md (gitignored; sidecar, never ingested)
+│   ├── vex-and-the-finding.md (gitignored; canon summary, 2026-09-22)
+│   ├── vex-transcript-the-finding.md (gitignored; full scene, 2026-09-22)
+│   └── vex-notes-the-finding.md (gitignored; sidecar, never ingested)
 ├── pip/
 │   ├── pip-archive.md (gitignored; running index of scenes)
 │   ├── pip-and-the-flight.md (gitignored; canon summary, 2026-08-23)
@@ -153,6 +156,8 @@ Every filed scene may carry a third file beside its transcript and canon-summary
 - `vex/vex-transcript-the-mark.md` : the verbatim scene transcript that `vex-and-the-mark.md` summarizes. Source record, word for word.
 - `vex/vex-and-the-earned-name.md` : the Dragon and the Guard, 2026-09-18. The mother wyrm-kin named at last, Sael-thir, and her own names for Veris and Wren. Summary and canon extraction.
 - `vex/vex-transcript-the-earned-name.md` : the verbatim scene transcript that `vex-and-the-earned-name.md` summarizes. Source record, word for word.
+- `vex/vex-and-the-finding.md` : the Dragon and the Guard, 2026-09-22. After Nubbin's question at the clan fire, a night at her watch rock. Summary and canon extraction.
+- `vex/vex-transcript-the-finding.md` : the verbatim scene transcript that `vex-and-the-finding.md` summarizes. Source record, word for word.
 
 ### Pip's Archive (the Scout)
 
